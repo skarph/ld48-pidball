@@ -198,7 +198,7 @@ function love.draw()
     iDial:draw(DEBUG)
     dDial:draw(DEBUG)
     love.graphics.setColor(0,0,0,1)
-    [[love.graphics.print(
+    --[[love.graphics.print(
         "p,i,d: "..(math.floor(p*10)*0.1)..","..(math.floor(i*10)*0.1)..","..(math.floor(d*10)*0.1)..
         "\naccumulator"..accumulator..
         "\ntarget: "..target..
